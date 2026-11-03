@@ -1,4 +1,7 @@
 [project]
+@app.route('/about')
+def about():
+    return "我是ZhuanZ，这是我的第一个独立完成的工程页面！"
 name = "flask-project"
 version = "0.1.0"
 description = "我的第一个工程化 Python 项目"
